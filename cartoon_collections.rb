@@ -5,6 +5,7 @@ end
 
 
 def summon_captain_planet(arr)
+  #arr.map {|calls| puts "#{calls.capitalize}!" }
   arr.map {|calls| puts "#{calls.capitalize}!" }
   #arr.map {|calls| puts "#{calls}!"}
 end
