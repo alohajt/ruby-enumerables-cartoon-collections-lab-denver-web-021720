@@ -6,8 +6,8 @@ end
 
 def summon_captain_planet(arr)
   #arr.map {|calls| puts "#{calls.capitalize}!" }
-  arr.map {|calls| puts "#{calls.capitalize}!" }
-  #arr.map {|calls| puts "#{calls}!"}
+  arr.map {|calls| calls.capitalize}
+  arr.map {|calls| puts "#{calls}!"}
 end
 
 def long_planeteer_calls(arr)
